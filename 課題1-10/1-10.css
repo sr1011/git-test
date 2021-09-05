@@ -75,19 +75,23 @@ footer{
 }
 
  main {
-  width: 90%;
+  width: 100%;
   display: block;
-  margin: 50px 5% 50px 5%;
+  margin: 50px 0;
 }
 
 .main-boxes {
-  width: 100%;
+  width: 90%;
   margin-top: 20px;
-  margin-right: 0px;
+  margin: 0 auto;
 }
 
 .main-boxes:first-child {
   margin-top: 0;
+}
+
+.main-boxes:last-child {
+  margin: 0 auto;
 }
 
 .box-image1 {
